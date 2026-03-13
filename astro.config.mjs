@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://jesustoxtle.github.io',
+  site: 'https://toxtlej1.github.io',
   base: '/infra-ai-learning-path',
   integrations: [
     starlight({
@@ -14,7 +14,7 @@ export default defineConfig({
         './src/styles/global.css',
       ],
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/your-username/infra-ai-learning-path' }
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/toxtlej1/infra-ai-learning-path' }
       ],
       sidebar: [
         {
