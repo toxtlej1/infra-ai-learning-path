@@ -16,21 +16,12 @@ hero:
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { HeroSection } from '../../components/HeroSection';
 
-## What you will learn
+<HeroSection client:load />
 
-<CardGrid stagger>
-	<Card title="Infrastructure Fundamentals" icon="setting">
-		Learn the building blocks: Cloud Basics, VMs, Networking, Containers, and Kubernetes.
-	</Card>
-	<Card title="The Feynman Technique" icon="open-book">
-		We break down complex technical topics into simple, relatable analogies. No jargon, just understanding.
-	</Card>
-	<Card title="AI as a Mentor" icon="magnifier">
-		Learn how to prompt AI effectively to debug CI/CD pipelines, generate Terraform, and weigh architecture trade-offs.
-	</Card>
-	<Card title="Hands-On & Visual" icon="pencil">
-		Rich architecture diagrams and practical code exercises that you can immediately apply.
-	</Card>
-</CardGrid>
+## Curriculum Progress
+
+:::tip[Current Roadmap]
+We are building this learning path in public. Currently, **Module 1 (Cloud)** and **Module 2 (Containers)** are complete.
+:::
