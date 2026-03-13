@@ -1,49 +1,55 @@
-# Starlight Starter Kit: Basics
+# AI-Empowered Infrastructure Learning Path 🚀
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+An open-source, interactive curriculum designed to empower college students to master Cloud Infrastructure while embracing AI as a powerful technical assistant. 
 
-```
-npm create astro@latest -- --template starlight
-```
+This project aims to alleviate fears of AI impacting job prospects by teaching students how to leverage AI for architecture design, debugging, and complex technical decision-making.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🌟 Core Pillars
 
-## 🚀 Project Structure
+1. **The Feynman Technique:** We break down complex infrastructure concepts (VPCs, Kubernetes, Subnets) into simple, relatable analogies. If you can't explain it simply, you don't understand it well enough.
+2. **AI as a "Senior Mentor":** Instead of just teaching "how to click buttons," we teach how to prompt AI to weigh trade-offs, generate secure boilerplate, and troubleshoot infrastructure failures.
+3. **Visual Learning:** Every module includes interactive architecture diagrams using Mermaid.js to help visual learners grasp the "big picture."
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## 📚 Curriculum Structure
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+- **Module 1: Cloud Basics & Networking** (Available)
+  - Understanding the "Cloud" landlord, VMs, VPCs, and Subnets.
+  - *AI Angle:* Using AI to evaluate cloud provider trade-offs.
+- **Module 2: Containerization & Docker** (Coming Soon)
+  - Packaging applications and using AI to optimize Dockerfiles.
+- **Module 3: Infrastructure as Code (IaC)** (Coming Soon)
+  - Automating the cloud foundation with Terraform and AI pair-programming.
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 🛠️ Getting Started (Local Development)
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+To run this learning path locally for development or contribution:
 
-Static assets, like favicons, can be placed in the `public/` directory.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/toxtlej1/infra-ai-learning-path.git
+   cd infra-ai-learning-path
+   ```
 
-## 🧞 Commands
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-All commands are run from the root of the project, from a terminal:
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+4. **Access the site:**
+   Open `http://localhost:4321` in your browser.
 
-## 👀 Want to learn more?
+## 🚢 Deployment
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+This project is built with [Astro Starlight](https://starlight.astro.build/) and is automatically deployed to **GitHub Pages** via GitHub Actions whenever changes are pushed to the `main` branch.
+
+## 🤝 Contributing
+
+We welcome contributions from students and engineers! If you have a better analogy for a technical concept or want to add a module, feel free to open a Pull Request.
+
+---
+*Built with ❤️ to help the next generation of engineers build without fear.*
